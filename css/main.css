@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 body{
-    height: 4000px;
+    height: 10000px;
     background-color: white;
 }
 /* =====================header================= */
@@ -687,6 +687,12 @@ font-weight: bold;
     .symptoms-button{
         margin: 20px 0px;
     }
+    .symptoms .h1 {
+        font-size: 24px;
+    }
+    .symptoms .h2 {
+        font-size: 16px;
+    }
 }
 
 /* ================================================================================================ */
@@ -815,6 +821,96 @@ font-weight: bold;
     margin: 15px
 }
 
+
+
+/* -----------protect----------------- */
+.protect-row{
+    margin-top: 100px;
+    background-color: white;
+    padding: 30px;
+}
+.protect-row .h1{
+    margin: 20px 5px 60px 5px;
+    font-weight: bold;
+    color: #465675;
+    font-size: 30px;
+    text-align: left;
+}
+
+.protect-row .protect-text{
+    margin: 30px 5px;
+}
+
+.protect-row .protect-text p i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #3dca93;
+}
+
+.protect-row .protect-text p span{
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Oswald';
+    font-size: 20px;
+    color: #3d4b69;
+    line-height: 1.5em;
+}
+
+.protect-row .protect-text p em{
+    text-align: left;
+    color: #3d4b69;
+    line-height: 1.5em;
+    font-size: 21px;
+}
+
+
+.protect-row .protect-img{
+    width: 100%;
+    height: 100%;
+    padding: 20px 5px;
+}
+.protect-row .protect-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.wish-hands{
+    padding: 100px 20px;
+    text-align: center;
+
+}
+
+.wish-hands h1{
+    margin-bottom: 20px;
+    color: #465675;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wish-hands a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    word-spacing: 5px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.hand .img{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.hand h1{
+    color: #3d4b69;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
 @media(max-width : 620px){
    
     .Prevention-content {
@@ -840,6 +936,133 @@ font-weight: bold;
     .Prevention-button{
         margin: 20px 0px;
     }
+
+    .protect-row .h1 {
+        font-size: 18px;
+    }
+
+    .wish-hands h1{
+        font-size: 20px;
+    }
+    .hand{
+        margin: auto;
+    width: 60%;
+    margin-bottom: 65px;
+    }
+
+    .protect-row .protect-text p span {
+        font-size: 16px;
+    }
+
+    .protect-row .protect-text p i {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .Prevention-alert button a {
+        font-size: 18px;
+    }
+    .Prevention .h1 {
+        font-size: 19px;
+    }
 }
 
+/* ================================================================================================ */
+
+
+
+/* ========================treatment======================================================================== */
+
+.section-treatment{
+    width: 100%;
+    background-image: url('../img/navbackground.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2766bb;
+}
+
+
+.treatment-content{
+    padding: 76px 10px;
+}
+
+.treatment-content h6{
+    color: #73e3ff;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.treatment-content h1{
+    color: white;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.treatment-content p{
+    color: white;
+}
+
+.treatment-content p span{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+
+.self-car{
+    margin: 100px 5px;
+    padding: 36px 36px;
+    background-color: #1b47a1;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.self-car h5{
+margin: 20px 0px;
+
+}
+
+.self-car p{
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.self-car h6{
+    text-align: left;
+}
+.self-car h6 i{
+    margin: 5px 10px 5px 0px;
+    font-size: 16px;
+}
+
+@media(max-width: 620px){
+    .treatment-content h1 {
+        font-size: 23px;
+    }
+
+    .treatment-content h6 {
+        font-size: 15px;
+    }
+    .treatment-content p span {
+        font-size: 14px;
+    }
+    .treatment-content {
+        text-align: center;
+    }
+
+    .self-car {
+        margin: -11px 5px;
+        padding: 23px 9px;
+    }
+    .self-car h5 {
+        text-align: center;
+    }
+}
 /* ================================================================================================ */
